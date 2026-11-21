@@ -1,0 +1,1 @@
+export default function Sample({ label = "Sample content" }: { label?: string }) { return <span className="inline-block border border-gold-dark px-2 py-0.5 text-[11px] font-bold uppercase tracking-wider text-gold-dark">{label}</span>; }
