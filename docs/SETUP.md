@@ -34,6 +34,8 @@ Without SMTP the site works; subscribers are activated directly (when consent is
 ## 4. Deploy on Vercel
 Import the GitHub repository, add the variables, deploy. `vercel.json` schedules a daily job (`/api/cron/daily`) that publishes scheduled articles, marks past webinars completed and continues newsletter sends. Note: the Vercel Hobby plan is for non-commercial use; move to Pro if the initiative takes sponsorship money through the site.
 
+Admin → System → Load starter content (`/admin/seed`) displays the seed-script sequence for reference; SQL must still be executed in the Supabase SQL Editor.
+
 ## 5. Running the site
 - **Articles:** Admin → Articles. Editors can submit for review; users with the publish permission can publish or schedule. Reading time is calculated automatically. Add tags, related articles and SEO fields.
 - **Webinars:** Admin → Webinars. Leave the date empty until it is confirmed; the page then shows "Date to be announced". Add a YouTube/Vimeo link for the recording and it embeds automatically. Turn on "Allow registration on this website" or paste an external registration link.

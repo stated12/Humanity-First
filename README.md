@@ -1,6 +1,6 @@
 # The Humanity & Cooperation Initiative
 
-An ORIVANA initiative in collaboration with Randall S. Pitts and The Humanity Movement. 
+An ORIVANA initiative in collaboration with Randall S. Pitts and The Humanity Movement.
 Next.js (App Router) · TypeScript · Tailwind CSS · Supabase (Postgres, Auth, Storage) · Vercel. Mobile-first.
 
 ## What is included
@@ -14,7 +14,7 @@ Next.js (App Router) · TypeScript · Tailwind CSS · Supabase (Postgres, Auth, 
 1. Create a Supabase project. In the SQL editor run, in order: `supabase/01_schema.sql`, `02_functions.sql`, `03_rls.sql`, `04_seed.sql`, `06_grants.sql`.
 2. Create the first admin with the separate private file `05_admin_user_PRIVATE.sql` (kept outside this repository).
 3. Create a Vercel project from this repository and add the environment variables from `.env.example`.
-4. Deploy, open `/admin/login`, sign in, and change the password.
+4. Deploy, open `/admin/login`, sign in, and change the password. Admin → System → Load starter content (`/admin/seed`) provides the SQL setup sequence; it is a guide and does not execute SQL automatically.
 
 Full instructions: **`docs/SETUP.md`**.
 
