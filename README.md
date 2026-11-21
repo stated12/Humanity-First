@@ -1,6 +1,6 @@
 # The Humanity & Cooperation Initiative
 
-An ORIVANA initiative in collaboration with Randall S. Pitts and The Humanity Movement.
+An ORIVANA initiative in collaboration with Randall S. Pitts and The Humanity Movement. 
 Next.js (App Router) · TypeScript · Tailwind CSS · Supabase (Postgres, Auth, Storage) · Vercel. Mobile-first.
 
 ## What is included
